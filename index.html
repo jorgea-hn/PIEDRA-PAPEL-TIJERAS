@@ -24,35 +24,38 @@
 
         <h2>Escoge una opcion:</h2>
         <div class="container">
-            <img id="papel" src="img/papels.png" alt="papel">
-            <img id="piedra" src="img/piedras.png" alt="piedra">
-            <img id="tijeras" src="img/tijerass.png" alt="tijera">
+            <img class="imagen" id="papel" src="img/papels.png" alt="papel">
+            <img class="imagen" id="piedra" src="img/piedras.png" alt="piedra">
+            <img class="imagen" id="tijeras" src="img/tijerass.png" alt="tijera">
         </div>
 
         <div id="n_partidas"> </div>
         <h2>Opciones</h2>
-        <div class="container">
+        <div class="container-op">
             <div class="container-opciones">
                 <h4>JUGADOR</h4>
                 <img class="jugadas" id="imagen-jugador" src="img/circulo.png" alt="Imagen seleccionada">
             </div>
+
+            <div id="mensaje"></div>
+
             <div class="container-opciones">
                 <h4>PC</h4>
                 <img class="jugadas" id="imagen-pc" src="img/circulo.png" alt="Imagen seleccionada">
             </div>
         </div>
 
-        <div id="mensaje"></div>
+        
 
         <h3 id="texto"></h3>
         <h3>MARCADOR</h3>
         <div class="container-marcador">
-            <div id="jugador">
-                <h4>JUGADOR: </h4>
-                <h4 id="value_jugador">0</h4>
+            <div id="titulo">
+                <h4 id="titulo_jugador">JUGADOR</h4>
+                <h4 id="titulo_pc">PC </h4>
             </div>
-            <div id="pc">
-                <h4>PC: </h4>
+            <div id="marcador">
+                <h4 id="value_jugador">0</h4>
                 <h4 id="value_pc">0</h4>
             </div>
         </div>

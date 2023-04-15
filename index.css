@@ -18,7 +18,7 @@ body{
 
 #main{
     height: 100vh;
-    padding: 50px;
+    padding: 40px;
 }
 
 h1{
@@ -29,9 +29,21 @@ h1,h2,h3,#mensaje{
     text-align: center;  
 }
 
-.container, #jugador, #pc{
+#mensaje{
+    margin: auto;
+}
+
+
+
+.container, #titulo, #marcador{
     display: flex;
     justify-content: space-around;
+}
+
+.container-op{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 20%;
 }
 
 .container-opciones{
@@ -50,7 +62,7 @@ h4{
 
 #fin_contenedor{
     display: none;
-    background: rgba(0, 0, 0, .6);
+    background: #1a1112d0;
     height: 50vh;
     border-radius: 15px;
     text-align: center; 
@@ -88,11 +100,45 @@ h4{
     margin-top: 30px;
 }
 
+#reinicio:hover{
+    background-color: #a7342c;
+}
+
 
 .container-marcador{
     background-color: rgba(0, 0, 0, .6);
     border-radius: 10px;
+    width: 400px;
+    margin: auto;
+    border-radius: 15px;
 }
+
+
+#titulo_jugador{
+    background-color: aqua;
+    border-radius: 10px 0px 0px 0px;
+}
+
+#titulo_pc{
+    background-color: #a7342c;
+    border-radius: 0px 10px 0px 0px;
+}
+
+#value_jugador,#value_pc{
+    background-color: aliceblue;
+    color: black;
+    
+}
+
+#value_pc{
+    border-left: 1px solid black;
+}
+
+
+
+
+
+
 
 
 

@@ -1,3 +1,5 @@
+var nombre = prompt("Ingrese su nombre: ")
+
 var main = document.querySelector("#main")
 var mensaje = document.querySelector("#mensaje")
 var n_partidas = document.querySelector("#n_partidas")
@@ -8,6 +10,9 @@ var reinicio = document.getElementById("reinicio")
 
 var value_jugador = document.querySelector("#value_jugador")
 var value_pc = document.querySelector("#value_pc")
+
+var titulo_jugador = document.getElementById("titulo_jugador")
+titulo_jugador.innerHTML=nombre
 
 var opcionj = ""
 var opcionpc = ""
