@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'TypographytimesRegular';
+    font-weight: normal;
+    font-style: normal;
+    color: beige;
+}
+
+
+body{
+    background-image: url("https://images7.alphacoders.com/914/thumb-1920-914830.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main{
+    height: 100vh;
+    padding: 50px;
+}
+
+h1{
+    font-size: 35px;
+}
+
+h1,h2,h3,#mensaje{
+    text-align: center;  
+}
+
+.container, #jugador, #pc{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-opciones{
+    text-align: center;
+}
+.jugadas{
+    width: 120px;
+    height: 120px;
+}
+
+h4{
+    width: 50%;
+    text-align: center;
+}
+
+
+#fin_contenedor{
+    display: none;
+    background: rgba(0, 0, 0, .6);
+    height: 50vh;
+    border-radius: 15px;
+    text-align: center; 
+    width: 50%;
+    padding: 10px 40px;
+    margin:70px;
+}
+
+#fin{
+    width: 100%;
+    align-items: center;
+    padding-top: 12%;
+    font-size: 30px;
+}
+
+#fin_texto{
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+#intrucciones{
+    margin: 40px 0px 20px 0px;
+}
+
+#intrucciones-title{
+    text-align: left;
+}
+
+#reinicio{
+    background-color: #F85246;
+    border: transparent;
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+
+.container-marcador{
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: 10px;
+}
+
+
+

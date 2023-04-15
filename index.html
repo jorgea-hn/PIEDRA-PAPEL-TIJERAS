@@ -1,14 +1,75 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juego Piedra-Papel-Tijeras</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="index.js">
+
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/typography-times" type="text/css" />
 </head>
+
 <body>
+
+    <main id="main">
+        <h1>BIENVENIDOS AL JUEGO DE PIEDRA - PAPEL - TIJERAS</h1>
+
+        <div id="intrucciones">
+            <h2 id="intrucciones-title">Instrucciones:</h2>
+            <p>Selecciona una opcion, entre piedra, papel o tijeras, debes ganar 5 partidas</p>
+        </div>
+
+
+        <h2>Escoge una opcion:</h2>
+        <div class="container">
+            <img id="papel" src="img/papels.png" alt="papel">
+            <img id="piedra" src="img/piedras.png" alt="piedra">
+            <img id="tijeras" src="img/tijerass.png" alt="tijera">
+        </div>
+
+        <div id="n_partidas"> </div>
+        <h2>Opciones</h2>
+        <div class="container">
+            <div class="container-opciones">
+                <h4>JUGADOR</h4>
+                <img class="jugadas" id="imagen-jugador" src="img/circulo.png" alt="Imagen seleccionada">
+            </div>
+            <div class="container-opciones">
+                <h4>PC</h4>
+                <img class="jugadas" id="imagen-pc" src="img/circulo.png" alt="Imagen seleccionada">
+            </div>
+        </div>
+
+        <div id="mensaje"></div>
+
+        <h3 id="texto"></h3>
+        <h3>MARCADOR</h3>
+        <div class="container-marcador">
+            <div id="jugador">
+                <h4>JUGADOR: </h4>
+                <h4 id="value_jugador">0</h4>
+            </div>
+            <div id="pc">
+                <h4>PC: </h4>
+                <h4 id="value_pc">0</h4>
+            </div>
+        </div>
+
+
+        
+    </main>
+
+    <div id="fin_contenedor">
+        <h4 id="fin"></h4>
+        <p id="fin_texto"></p>
+        <button id="reinicio">Reiniciar</button>
+    </div>
     
+
 </body>
+
+<script src="index.js"></script>
+
 </html>
