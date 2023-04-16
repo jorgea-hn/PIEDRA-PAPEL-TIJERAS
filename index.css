@@ -31,9 +31,8 @@ h1,h2,h3,#mensaje{
 
 #mensaje{
     margin: auto;
+    font-weight:700;
 }
-
-
 
 .container, #titulo, #marcador{
     display: flex;
@@ -44,6 +43,20 @@ h1,h2,h3,#mensaje{
     display: flex;
     justify-content: space-around;
     padding: 0px 20%;
+}
+
+.imagen{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.imagen:hover{
+    background: #221211;
+}
+
+.imagen:hover{
+    background-image: url(img/circuloa.png);
 }
 
 .container-opciones{
@@ -115,7 +128,7 @@ h4{
 
 
 #titulo_jugador{
-    background-color: aqua;
+    background-color: rgb(23, 40, 168);
     border-radius: 10px 0px 0px 0px;
 }
 
@@ -134,6 +147,69 @@ h4{
     border-left: 1px solid black;
 }
 
+
+
+
+
+
+/* desktop*/
+@media screen and (max-width: 1200px){
+    
+}
+
+/* laptop*/
+@media screen and (max-width: 1023px) and (min-width: 769px){
+    
+}
+
+
+/* Tablet*/
+@media screen and (max-width: 768px) and (min-width: 481px){
+    body{
+        background-size: auto;
+        height: 100vh;
+    }
+    h2,h3{
+        margin: 10px 0px;
+    }
+
+    #fin_contenedor{
+        width: 80%;
+    }
+    
+}
+
+/* mobile */
+@media screen and (max-width: 480px) and (min-width: 300px){
+    body{
+        background-size: auto;
+        height: 100vh;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+    .container-op{
+        padding: 0;
+    }
+
+    #fin_contenedor{
+        width: 70%;
+    }
+    #reinicio{
+        margin-top: 40px;
+    }
+
+    #main{
+        padding: 20px;
+    }
+
+    .container-marcador{
+        width: 300px;
+        margin: auto;
+        border-radius: 15px;
+    }
+}
 
 
 
